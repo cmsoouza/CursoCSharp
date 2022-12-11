@@ -29,6 +29,7 @@ namespace CursoCSharp.Fundamentos {
  * 
  * - Usando a notação "." poderemos acessar a propriedade de cada metodo
  *   dentro da string.
+ * - Todas as consultas deverão ser iniciadas.
  * 
  * 
  * **/
