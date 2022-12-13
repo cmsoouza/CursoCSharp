@@ -17,6 +17,7 @@ namespace CursoCSharp {
                 {"Primeiro Programa - Objetc", Objetcs.Executar},
                 {"Primeiro Programa - Alias", Alias.Executar},
                 {"Primeiro Programa - Notação Ponto", NotacaoPonto.Executar},
+                {"Primeiro Programa - Conversão Implicita", ConversaoImplic.Executar},
             });
 
             central.SelecionarEExecutar();
