@@ -18,6 +18,8 @@ namespace CursoCSharp {
                 {"Primeiro Programa - Alias", Alias.Executar},
                 {"Primeiro Programa - Notação Ponto", NotacaoPonto.Executar},
                 {"Primeiro Programa - Conversão Implicita", ConversaoImplic.Executar},
+                {"Primeiro Programa - Conversão Explicita", ConversaoExpl.Executar},
+                {"Primeiro Programa - Conversão Lendo Dado Console", LendoDado.Executar},
             });
 
             central.SelecionarEExecutar();

@@ -17,3 +17,20 @@ namespace CursoCSharp.Fundamentos {
         }
     }
 }
+
+
+/**
+ * 
+ * Anotações:
+ * 
+ * - Conversão implicita ocorre quando precisamos transformar um tipo x para tipo y.
+ * - Algumas definições:
+ *      => Podem ser executadas com passagem de dados
+ *      => Seus tipos sao compativeis
+ * - Neste caso o numero inteiro pode receber o numero real, mais ao contrario nao aceitaria.
+ * 
+ * 
+ * 
+ * 
+ * **/
+
