@@ -25,3 +25,16 @@ namespace CursoCSharpx.Fundamentos {
         }
     }
 }
+
+/**
+ * Anotações:
+ * 
+ * Links para consultas:
+ * https://pt.stackoverflow.com/questions/91117/o-que-significa-o-simbolo-antes-de-uma-string?noredirect=1&lq=1
+ * 
+ * 
+ * 
+ * 
+ * 
+ * **/
+
