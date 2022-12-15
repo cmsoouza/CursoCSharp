@@ -20,6 +20,8 @@ namespace CursoCSharp {
                 {"Primeiro Programa - Conversão Implicita", ConversaoImplic.Executar},
                 {"Primeiro Programa - Conversão Explicita", ConversaoExpl.Executar},
                 {"Primeiro Programa - Conversão Lendo Dado Console", LendoDado.Executar},
+                {"Primeiro Programa - Convert", Converts.Executar},
+                {"Primeiro Programa - Conversões", Conversoes.Executar},
             });
 
             central.SelecionarEExecutar();
