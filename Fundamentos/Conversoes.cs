@@ -46,6 +46,10 @@ namespace CursoCSharp.Fundamentos {
  * Anotações:
  * 
  * - Há uma perda de informações.
+ * - O que ocorre nas sentenças usando Parse/TryParse é que os indices
+ *   passados interpolados dentro de chaves naquele espaço. No caso de {0}
+ *   representa o primeiro elemento passado como argumento para função e
+ *   assim por diante.
  * 
  * 
  * 
