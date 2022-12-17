@@ -2,26 +2,30 @@
 using System.Collections.Generic;
 using Csharp.Fundamentos;
 using CursoCSharp.Fundamentos;
+using CursoCSharp.Net7;
 using CursoCSharpx.Fundamentos;
 
 namespace CursoCSharp {
     class Program {
         static void Main(string[] args) {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
-                {"Primeiro Programa - Fundamentos", estrutura.Executar},
-                {"Primeiro Programa - Comentários", Comentarios.Executar},
-                {"Primeiro Programa - Variaveis e Const", VariaveisEConst.Executar},
-                {"Primeiro Programa - Inferencia", Inferencia.Executar},
-                {"Primeiro Programa - Interpolação", Interpolacao.Executar},
-                {"Primeiro Programa - Using Sytem", Systems.Executar},
-                {"Primeiro Programa - Objetc", Objetcs.Executar},
-                {"Primeiro Programa - Alias", Alias.Executar},
-                {"Primeiro Programa - Notação Ponto", NotacaoPonto.Executar},
-                {"Primeiro Programa - Conversão Implicita", ConversaoImplic.Executar},
-                {"Primeiro Programa - Conversão Explicita", ConversaoExpl.Executar},
-                {"Primeiro Programa - Conversão Lendo Dado Console", LendoDado.Executar},
-                {"Primeiro Programa - Convert", Converts.Executar},
-                {"Primeiro Programa - Conversões", Conversoes.Executar},
+                {"Fundamentos C# - Fundamentos", estrutura.Executar},
+                {"Fundamentos C# - Comentários", Comentarios.Executar},
+                {"Fundamentos C# - Variaveis e Const", VariaveisEConst.Executar},
+                {"Fundamentos C# - Inferencia", Inferencia.Executar},
+                {"Fundamentos C# - Interpolação", Interpolacao.Executar},
+                {"Fundamentos C# - Using Sytem", Systems.Executar},
+                {"Fundamentos C# - Objetc", Objetcs.Executar},
+                {"Fundamentos C# - Alias", Alias.Executar},
+                {"Fundamentos C# - Notação Ponto", NotacaoPonto.Executar},
+                {"Fundamentos C# - Conversão Implicita", ConversaoImplic.Executar},
+                {"Fundamentos C# - Conversão Explicita", ConversaoExpl.Executar},
+                {"Fundamentos C# - Conversão Lendo Dado Console", LendoDado.Executar},
+                {"Fundamentos C# - Convert", Converts.Executar},
+                {"Fundamentos C# - Conversões", Conversoes.Executar},
+
+                {"New Feature .net7 - Interpolação Chain", interpolatedChain.Executar},
+
             });
 
             central.SelecionarEExecutar();
