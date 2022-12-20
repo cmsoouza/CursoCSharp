@@ -14,23 +14,23 @@ namespace CursoCSharp.Fundamentos {
             double.TryParse(Console.ReadLine(), out double nota);
             double notaDeCorte = 7.0;
 
-            Console.WriteLine("Nota inválida? {0}", nota > 10.0); // Maior que
-            Console.WriteLine("Nota inválida? {0}", nota < 0.00); // Menor que
-            Console.WriteLine("Perfeito? {0}", nota == 10.0); // Igual
-            Console.WriteLine("Tem como melhorar? {0}", nota != 10.0); // Diferente
-            Console.WriteLine("Passou por média? {0}", nota >= notaDeCorte); // Maior ou igual
-            Console.WriteLine("Recuperação? {0}", nota < notaDeCorte); // Menor que
-            Console.WriteLine("Reprovado? {0}", nota <= 3.0); // Menor ou igual
+            Console.WriteLine("Nota inválida? {0}", nota > 10.0);
+            Console.WriteLine("Nota inválida? {0}", nota < 0.00);
+            Console.WriteLine("Perfeito? {0}", nota == 10.0);
+            Console.WriteLine("Tem como melhorar? {0}", nota != 10.0); 
+            Console.WriteLine("Passou por média? {0}", nota >= notaDeCorte);
+            Console.WriteLine("Recuperação? {0}", nota < notaDeCorte);
+            Console.WriteLine("Reprovado? {0}", nota <= 3.0); 
 
             // 2° Exemplo (Mais Simples)
             Console.WriteLine("2° Exemplo, Operações Mais Simples: ");
             int x = 25;
-            Console.WriteLine(x == 0);
-            Console.WriteLine(x > 0);
-            Console.WriteLine(x < 0);
-            Console.WriteLine(x >= 0);
-            Console.WriteLine(x <= 0);
-            Console.WriteLine(x != 0);
+            Console.WriteLine(x == 0); // Igual
+            Console.WriteLine(x > 0); // Maior que
+            Console.WriteLine(x < 0); // Menor que
+            Console.WriteLine(x >= 0); // Maior ou igual
+            Console.WriteLine(x <= 0); // Menor ou igual
+            Console.WriteLine(x != 0); // Diferente
         }
     }
 }
