@@ -36,6 +36,9 @@ namespace CursoCSharp.Fundamentos {
 /**
  * Anotações:
  * 
+ * Links para consultas:
+ * https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/arithmetic-operators
+ * 
  * - Algumas definições;
  *      => Quando realizamos a inferencia de tipos double para int teremos
  *         que realizar operação explicita (Casting), isso so ocorre quando
