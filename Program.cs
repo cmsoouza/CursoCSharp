@@ -25,6 +25,7 @@ namespace CursoCSharp {
                 {"Fundamentos C# - Conversões", Conversoes.Executar},
                 {"Fundamentos C# - Operadores Aritméticos", Aritmeticos.Executar},
                 {"Fundamentos C# - Operadores Relacionais", Relacionais.Executar},
+                {"Fundamentos C# - Operadores Atribuição", Atribuição.Executar},
                 // Migrando para dotnet7 e c#11
                 {"New Feature .net7 - Interpolação Chain", interpolatedChain.Executar},
 
