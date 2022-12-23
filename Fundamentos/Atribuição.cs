@@ -27,8 +27,8 @@ namespace CursoCSharp.Fundamentos {
             int a = 1;
             int b = a;
 
-            a++; // a = a + 1
-            b--; // b = b - 1
+            a++; // a = a + 1 (Incremento)
+            b--; // b = b - 1 (Decremento)
             Console.WriteLine($"{a} {b}");
 
             // 4° Exemplo de Atribuição por referencia
@@ -46,12 +46,17 @@ namespace CursoCSharp.Fundamentos {
 /**
  * Anotações;
  * 
- * - No 3° exemplo temos um procedimento atribuição por referencia;
- * - Ainda no 3° exemplo temos o exemplo de incremento/decremento na
- *   operação interpolando dentro do Console().
- * - No 4° Exemplo operamos as variaveis com o metodo de atribuição por
- *   por referencia. Isso quer dizer as variaveis compartilham o mesmo
- *   valor.
+ * Link para consultas;
+ * https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/arithmetic-operators
+ * 
+ *   Definições;
+ *     => Ainda no 3° exemplo temos o exemplo de incremento/decremento na
+ *        operação interpolando dentro do Console().
+ *     => No 4° Exemplo operamos as variaveis com o metodo de atribuição por
+ *        por referencia. Isso quer dizer as variaveis compartilham o mesmo
+ *        valor.
+ *     => A sentença new System.Dynamic.ExpandoObject(), cria uma nova estância
+ *        da classe "ExpandoObject".
  * 
  * 
  * 
