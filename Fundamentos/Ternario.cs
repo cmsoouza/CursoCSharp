@@ -15,3 +15,17 @@ namespace CursoCSharp.Fundamentos {
 
     }
 }
+
+/**
+ * Anotações;
+ * 
+ *  Links para consultas:
+ *  https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/conditional-operator
+ * 
+ * - Algumas definições importantes:
+ *      => Podemos ter varias condições dentro da sentença da condição ternária antes do resultado
+ *      => Precisamos tomar cuidado com a inferencia de valores para nao interferir no resultado
+ *         da condição.
+ * 
+ * 
+ * **/
