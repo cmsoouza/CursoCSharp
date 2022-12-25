@@ -13,7 +13,7 @@ namespace CursoCSharp.Fundamentos {
             Console.WriteLine("Resultado: ");
             bool comprouTv50 = executouTrabalho1 && executouTrabalho2;
             Console.WriteLine("Comprou a Tv 50? {0}", comprouTv50);
-
+            
             var comprouSorvete = executouTrabalho1 || executouTrabalho2;
             Console.WriteLine("Comprou o sorvete? {0}", comprouSorvete);
 
