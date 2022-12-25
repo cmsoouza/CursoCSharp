@@ -40,13 +40,5 @@ namespace CursoCSharp.Fundamentos {
  *      => ^ Neste caso quando x || y será "true" se x ou y for avaliado como "verdadeiro", caso contrário
  *           resultado será "falso".
  *      => ! negação lógica ele inverte o resultado do operando.
- *      
- *      
- *  - Tipos de operandos:
- *      => Unário (somente um operando)
- *      => Binários (Operar em cima de dois operandos)
- *      => Ternário (Operar em cima de três operandos)
- * 
- * 
- * 
+ *     
  * **/
