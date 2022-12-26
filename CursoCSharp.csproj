@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Compile Include=".Net7\interpolatedChain.cs" />
+    <Compile Include=".Net7\ListPatterns.cs" />
   </ItemGroup>
 
 </Project>

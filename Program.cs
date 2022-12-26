@@ -33,6 +33,7 @@ namespace CursoCSharp {
                 {"Fundamentos C# - Formatando Numeros", Numbers.Executar},
                 // Migrando para dotnet7 e c#11
                 {"New Feature .net7 - Interpolação Chain", interpolatedChain.Executar},
+                {"New Feature .net7 - List Patterns", ListPatterns.Executar},
                 // Estrutura de Controle
                 {"Estrutura de Controle - if", Estruturaif.Executar},
 
