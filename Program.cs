@@ -31,6 +31,7 @@ namespace CursoCSharp {
                 {"Fundamentos C# - Operadores Unários", Unario.Executar},
                 {"Fundamentos C# - Operadores Ternários", Ternario.Executar},
                 {"Fundamentos C# - Formatando Numeros", Numbers.Executar},
+                {"Fundamentos C# - Processando Dados", ProcessamentoDados.Executar},
                 // Migrando para dotnet7 e c#11
                 {"New Feature .net7 - Interpolação Chain", interpolatedChain.Executar},
                 {"New Feature .net7 - List Patterns", ListPatterns.Executar},
