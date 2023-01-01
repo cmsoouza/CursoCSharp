@@ -45,11 +45,13 @@ namespace CursoCSharp.Fundamentos {
 /**
  * Anotações:
  * 
- * - Há uma perda de informações.
- * - O que ocorre nas sentenças usando Parse/TryParse é que os indices
- *   passados interpolados dentro de chaves naquele espaço. No caso de {0}
- *   representa o primeiro elemento passado como argumento para função e
- *   assim por diante.
+ * - Algumas diferenças entre Parse e o Cast;
+ *      => "Parse" somente quando queremos converte um objeto com um determinado
+ *         tipo para outro. Quando não uma ligação entre eles Exemplo: Uma String
+ *         para numerico.
+ *      => Ja o operador Casting quando há uma ligação entre os operandos, neste caso
+ *         quando temos dois tipos que estáo relacionados de alguma forma. Exemplo:
+ *         "int" e "double" são tipos numericos.
  * 
  * 
  * 
