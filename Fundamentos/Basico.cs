@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace Csharp.Fundamentos {
-    class estrutura {
+    class Basico {
         public static void Executar() {
             Console.Write("Primeiro ");
             Console.Write("Programa");
