@@ -38,6 +38,7 @@ namespace CursoCSharp {
                 {"New Feature .net7 - List Patterns", ListPatterns.Executar},
                 // Estrutura de Controle
                 {"Estrutura de Controle - if", Estruturaif.Executar},
+                {"Estrutura de Controle - Switch", Switchs.Executar},
             });
 
             central.SelecionarEExecutar();
