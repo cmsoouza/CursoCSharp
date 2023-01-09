@@ -14,7 +14,6 @@ namespace CursoCSharp.Controle {
                 case "Jõao": Console.WriteLine("Não é o cara!"); break;
                 case "Paloma": Console.WriteLine("Não é o cara!"); break;
                 default: Console.WriteLine("Não encontrei"); break;
-
             }
             // 2° Exemplo;
             int day = 4;
